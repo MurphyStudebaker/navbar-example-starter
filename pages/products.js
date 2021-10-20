@@ -1,18 +1,18 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 
-export default function Home() {
+export default function Products() {
   return (
     <div className="page">
       <Head>
-        <title>Home</title>
+        <title>Products</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header />
 
       <main>
-        <h1>Home Page</h1>
+        <h1>Products Page</h1>
       </main>
       <style jsx>{`
         .page {
